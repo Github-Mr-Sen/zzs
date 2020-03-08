@@ -24,10 +24,12 @@
     </properties>
 
     <dependencies>
+        <!--springboot的jdbc-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jdbc</artifactId>
         </dependency>
+        <!--mysql的链接驱动-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
